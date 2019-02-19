@@ -1,4 +1,4 @@
-package CapacitacionGit.CapacitacionGit;
+package com.ejemplo;
 
 /**
  * Hello world!
