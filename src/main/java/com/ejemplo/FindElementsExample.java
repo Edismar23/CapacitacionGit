@@ -12,7 +12,7 @@ public class FindElementsExample {
     private final static String url = "http://173.1.0.126/pages/example.html";
 
     public static void main(String[] args) throws Exception {
-        String path = Paths.get(System.getProperty("user.dir"), "src/main/resources/drivers/chromedriver").toString();
+        String path = Paths.get(System.getProperty("user.dir"), "./DriverChrome/chromedriver.exe").toString();
         System.setProperty("webdriver.chrome.driver", path);
         WebDriver driver = new ChromeDriver();
         driver.get(url);
