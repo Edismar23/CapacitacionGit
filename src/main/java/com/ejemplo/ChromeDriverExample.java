@@ -12,8 +12,8 @@ public class ChromeDriverExample {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.cl/");
         Thread.sleep(5000);
-        driver.close();
-        driver.quit();
+        driver.close(); //cierra la ventana activa
+        driver.quit(); //cierra el navegador completamente
     }
 
 }

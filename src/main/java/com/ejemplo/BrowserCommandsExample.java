@@ -22,5 +22,4 @@ public class BrowserCommandsExample {
         Thread.sleep(2500);
         driver.quit();
     }
-
 }
